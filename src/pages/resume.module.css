@@ -1,0 +1,167 @@
+.resumeBox {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .rBox {
+    width: 60%;
+    margin: 0 auto;
+    /* border: solid rgb(219, 138, 210);
+    border-width: 2px; */
+    margin-bottom: 20px;
+    /* box-shadow: 4px 4px 8px 4px rgb(130, 127, 129); */
+    /* display: inline-block; */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .resumeContent {
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    height: 100%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .resumeContent li {
+    font-size: 18px;
+  }
+  
+  .resumeImage {
+    height: 700px;
+    object-fit: cover;
+    margin: 15px;
+    box-shadow: 4px 4px 8px 4px rgb(130, 127, 129);
+  }
+  
+  .resumeBtn {
+  display: block;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center; 
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rgb(130, 127, 129);
+    border-radius: 5px;
+    background-color: rgb(219, 138, 210);
+    color: rgb(97, 95, 97);
+    transition: transform 200ms ease-in;
+  }
+  
+  .resumeBtn:hover {
+      box-shadow: 4px 4px 8px 4px rgb(130, 127, 129);
+    }
+  
+  @media only screen and (max-width: 1700px) {
+    .resumeImage {
+      height: 600px;
+    }
+    .resumeContent {
+      padding: 10px 10px;
+      font-size: 15px;
+    }
+    .resumeContent li {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .resumeImage {
+      height: 450px;
+    }
+    .resumeContent {
+      margin-top: 5px;
+      width: 80%;
+      padding: 0px 10px;
+      font-size: 12px;
+    }
+    .resumeContent li {
+      font-size: 12px;
+    }
+    .resumeBtn {
+      padding: 7px;
+      margin-top: 5px;
+      text-align: center;
+      font-family: inherit;
+      font-weight: lighter;
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .resumeImage {
+      height: 350px;
+    }
+    .resumeContent {
+      margin-top: 5px;
+      width: 80%;
+      padding: 0px 10px;
+      font-size: 10px;
+    }
+    .resumeContent li {
+      font-size: 10px;
+    }
+    .resumeBtn {
+      padding: 7px;
+      margin-top: 5px;
+      text-align: center;
+      font-family: inherit;
+      font-weight: lighter;
+      font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .resumeImage {
+      height: 300px;
+    }
+    .resumeContent {
+      margin-top: 5px;
+      width: 90%;
+      padding: 0px 5px;
+      font-size: 10px;
+    }
+    .resumeContent li {
+      font-size: 8px;
+    }
+    .resumeBtn {
+      padding: 5px;
+      margin-top: 5px;
+      text-align: center;
+      font-family: inherit;
+      font-weight: lighter;
+      font-size: 7px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .resumeImage {
+      height: 200px;
+    }
+    .resumeContent {
+      margin-top: 5px;
+      width: 90%;
+      padding: 0px 5px;
+      font-size: 8px;
+    }
+    .resumeContent li {
+      font-size: 8px;
+    }
+    .resumeBtn {
+      padding: 5px;
+      margin-top: 5px;
+      text-align: center;
+      font-family: inherit;
+      font-weight: lighter;
+      font-size: 7px;
+    }
+  }
