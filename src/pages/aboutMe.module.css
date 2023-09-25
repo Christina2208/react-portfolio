@@ -1,0 +1,87 @@
+.mainBox {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .box {
+    width: 90%;
+  
+    margin: 0 auto;
+    border: solid rgb(219, 138, 210);
+    border-width: 2px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px 4px rgb(130, 127, 129);
+    /*display: inline-block;*/
+    display: flex;
+    justify-content:space-around;
+  }
+  
+  
+  
+  .mainImage {
+    height: 500px;
+    object-fit: cover;
+    margin: 10px;
+    box-shadow: 4px 4px 8px 4px rgb(130, 127, 129);
+  }
+  
+  .content {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: rgb(219, 138, 210);
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+  
+  }
+  .content p {
+    color: white;
+  }
+  
+  @media only screen and (max-width: 840px){
+     .mainImage{
+      height: 450px;
+     }
+     .content{
+      padding: 10px 10px;
+      font-size: 15px;
+     }
+  }
+  
+  @media only screen and (max-width: 700px){
+      .mainImage{
+       height: 400px;
+      }
+      .content{
+       padding: 10px 10px;
+       font-size: 12px;
+      }
+   }
+  
+   @media only screen and (max-width: 550px){
+      .mainImage{
+       width: 50%;
+      }
+      .content{
+       padding: 5px 5px;
+       font-size: 10px;
+      }
+   }
+   @media only screen and (max-width: 450px){
+      .mainImage{
+       width: 50%;
+      }
+      .content{
+       padding: 5px 5px;
+       font-size: 8px;
+      }
+   }
