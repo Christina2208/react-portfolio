@@ -5,7 +5,7 @@ This is used to generate a README file by using a command-line application.
 
 ## Screenshot
 
-<!-- ![alt-text](https://github.com/Christina2208/README-Generator/blob/main/images/README%20Gen%20SS.png) -->
+![alt-text](https://github.com/Christina2208/react-portfolio/blob/main/src/assets/images/React%20Portfolio.png)
 ## Table of Contents
 
 *[Usage](#usage)
