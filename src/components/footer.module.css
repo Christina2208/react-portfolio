@@ -1,0 +1,28 @@
+/*icon styling*/
+.box2{
+    width: 30%;
+      min-height: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: flex;
+      justify-content:space-around;
+    }
+    
+    .faBrands {
+        text-decoration: none;
+        padding: 20px;
+        font-size: 40px;
+        text-align: center;
+        margin: 5px 2px;
+        color: rgb(103, 96, 101);
+      }
+      
+      .faBrands:hover {
+        opacity: 0.7;
+      }
+     
+      @media only screen and (max-width: 450px){
+        .faBrands{
+            font-size: 30px;
+        }
+     }
