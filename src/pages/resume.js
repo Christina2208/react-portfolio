@@ -1,7 +1,7 @@
 import img7 from "../assets/images/resumeImage.jpg";
 import styles from "./resume.module.css";
 
-const FILE_URL = "http://localhost:3001/resumeImage.jpg";
+const FILE_URL = "http://localhost:3000/resumeImage.jpg";
 
 export default function Resume() {
   const downloadFileAtURL = (url) => {

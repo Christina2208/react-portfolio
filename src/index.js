@@ -16,7 +16,3 @@ root.render(
 
 );
 
-
-//references:
-
-//https://www.youtube.com/watch?v=U4w3kvYePFs

@@ -28,6 +28,8 @@ This is used to generate a README file by using a command-line application.
 - https://react.dev/learn
 - https://create-react-app.dev/docs/making-a-progressive-web-app/
 - https://create-react-app.dev/docs/getting-started/
+- https://www.youtube.com/watch?v=U4w3kvYePFs
+- https://fontawesome.com/docs/web/use-with/react/
 ## Tests
 
 N/A
