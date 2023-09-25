@@ -1,0 +1,9 @@
+.box1{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
+    gap: 2rem;
+    justify-content: center;
+}
