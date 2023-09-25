@@ -3,6 +3,7 @@
 This is used to generate a README file by using a command-line application. 
 ## Deployed Application URL
 
+http://localhost:3000
 ## Screenshot
 
 ![alt-text](https://github.com/Christina2208/react-portfolio/blob/main/src/assets/images/React%20Portfolio.png)
