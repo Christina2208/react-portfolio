@@ -4,6 +4,7 @@ import img3 from "../assets/images/codingQuiz.png";
 import img4 from "../assets/images/workdayScheduler.png";
 import img5 from "../assets/images/weatherDashboard.png";
 import img6 from "../assets/images/flavorImper.png";
+import img7 from "../assets/images/focusfolio.png";
 
 //add img3,.... here
 import PortfolioCards from "../components/portfolioCards";
@@ -53,6 +54,13 @@ export default function Portfolio() {
         title="Flavor Impersonator"
         web="https://flavor-impersonator-2e87d3d63575.herokuapp.com/"
         git="https://github.com/ltuckr/flavor-impersonator"
+      ></PortfolioCards>
+
+      <PortfolioCards
+        img={img7}
+        title="FocusFolio"
+        web="https://afternoon-waters-41270-ff57a8e3fb9c.herokuapp.com"
+        git="https://github.com/ltuckr/focusfolio"
       ></PortfolioCards>
     </div>
   );
